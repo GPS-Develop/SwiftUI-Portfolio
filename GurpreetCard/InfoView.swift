@@ -20,6 +20,7 @@ struct InfoView: View {
                 Image(systemName: imageName)
                     .foregroundColor(.green)
                 Text(text)
+                    .foregroundColor(.black)
             })
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
